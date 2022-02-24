@@ -95,7 +95,7 @@ function checkPassword2() {
 		check[3] = 1;
 		return;
 	} else {
-		setError(password2, "Must exact similar to Password");
+		setError(password2, "Passwords does not match");
 		check[3] = 0;
 		return;
 	}
